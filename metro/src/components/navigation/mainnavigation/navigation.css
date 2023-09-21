@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding-left: 34px;
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    border: 2px solid blue;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.Cinema{
+    font-size: 18px;
+    color: orangered;
+}
+.Icons{
+    width: 100%;
+    height: 51px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: auto;
+    padding: 0 88px;
+    margin-left: -7px;
+    /* border: 2px solid green; */
+}
+svg{
+    margin-left: 28px;
+    font-size: 28px;
+}
+.Movie-locator{
+    margin-left: 528px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Movie-locator a{
+    text-decoration: none;
+    color: #665;
+}
+.Search{
+    padding-right: 12px;
+}
